@@ -1,9 +1,9 @@
 Feature: Banana
 
   Scenario Outline:
-    Given One banana costs <bananaPrice>
-    When  I want to buy <numberOfBananas>
-    Then  The final price is <bananaTotalPrice>
+    Given One banana costs <bananaPrice> EUR
+    When  I want to buy <numberOfBananas> bananas
+    Then  The final price is <bananaTotalPrice> EUR
 
     Examples:
       | bananaPrice | numberOfBananas | bananaTotalPrice |
